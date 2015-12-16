@@ -399,8 +399,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = introduction_swift/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				"LD_RUNPATH_SEARCH_PATHS[arch=*]" = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "albertwang.introduction-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -410,8 +412,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = introduction_swift/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				"LD_RUNPATH_SEARCH_PATHS[arch=*]" = "@executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "albertwang.introduction-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -484,6 +488,7 @@
 				181213C81C20FCFE00A0FC28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		181213C91C20FCFE00A0FC28 /* Build configuration list for PBXNativeTarget "introduction_swiftTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				181213CB1C20FCFE00A0FC28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		181213CC1C20FCFE00A0FC28 /* Build configuration list for PBXNativeTarget "introduction_swiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				181213CE1C20FCFE00A0FC28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
